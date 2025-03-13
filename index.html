@@ -2,16 +2,37 @@
   <HEAD>
     <TITLE>It's real.</TITLE>
     <STYLE type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
       body {
         background-color: black;
+        color: white;
       }
       .centered {
         display: block;
         margin: auto;
       }
+      p.centered {
+        text-align: center;
+      }
+      .padded {
+        padding: 2vh;
+      }
+      .font-archivo {
+        font-family: "Archivo", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+      }
+      .lorge {
+        font-size: xxx-large;
+      }
+      .yellow {
+        color: yellow;
+      }
     </STYLE>
   </HEAD>
   <BODY>
-    <img class="centered" src="real.jpg" />
+    <p class="centered lorge font-archivo">Peg Tape Status: <span class="yellow">Searching</span></p>
+    <img class="centered padded" src="real.jpg" />
   </BODY>
 </HTML>
